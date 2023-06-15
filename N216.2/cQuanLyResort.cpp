@@ -90,6 +90,17 @@ void cQuanLyResort::TBve()
 			demve0d++;
 		}
 	}
-	cout << "- Trung binh 1 ve thuong su dung " << tongdvvt / demvt << " dich vu giai tri " << endl;
-	cout << "- Trung binh 1 ve 0 dong su dung " << tongdv0d / demve0d << " dich vu giai tri " << endl;
+	if (demvt == 0) {
+		cout << "\t- Khong co ve thuong" << endl;
+	}
+	else {
+		cout << "\t- Trung binh 1 ve thuong su dung " << tongdvvt / demvt << " dich vu giai tri " << endl;
+	}
+
+	if (demve0d == 0) {
+		cout << "\t- Khong co ve 0 dong" << endl;
+	}
+	else {
+		cout << "\t- Trung binh 1 ve 0 dong su dung " << tongdv0d / demve0d << " dich vu giai tri " << endl;
+	}
 }
