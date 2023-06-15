@@ -11,6 +11,6 @@ void cVe::Nhap()
 
 void cVe::Xuat()
 {
-	cout << "- Ho ten: " << hoten << endl;
-	cout << "- CMND: " << cmnd << endl;
+	cout << "\t- Ho ten: " << hoten << endl;
+	cout << "\t- CMND: " << cmnd << endl;
 }

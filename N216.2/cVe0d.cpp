@@ -15,9 +15,9 @@ void cVe0d::Nhap()
 void cVe0d::Xuat()
 {
 	cVe::Xuat();
-	cout << "- So dich vu giai tri su dung: " << dvgt << endl;
-	cout << "- So dich vu co ban su dung: " << dvcb << endl;
-	cout << "- So tien dich vu phai tra: " << tiendv << endl;
-	cout << "- Tong gia ve: " << giave << endl;
+	cout << "\t- So dich vu giai tri su dung: " << dvgt << endl;
+	cout << "\t- So dich vu co ban su dung: " << dvcb << endl;
+	cout << "\t- So tien dich vu phai tra: " << tiendv << endl;
+	cout << "\t- Tong gia ve: " << giave << endl;
 	cout << endl;
 }

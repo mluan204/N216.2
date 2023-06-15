@@ -10,10 +10,11 @@ class cQuanLyResort
 private:
 	vector<cVe*> ds;
 public:
+	cQuanLyResort(){}
 	void Nhap();
 	void Xuat();
 
-	int TongTien();
+	int TongTienDichVu();
 	cVe* maxdvgt();
 	void TBve();
 };

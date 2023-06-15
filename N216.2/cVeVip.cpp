@@ -13,6 +13,6 @@ void cVeVip::Nhap()
 void cVeVip::Xuat()
 {
 	cVe::Xuat();
-	cout << "- Gia ve: 3000000" << endl;
+	cout << "\t- Gia ve: 3000000" << endl;
 	cout << endl;
 }

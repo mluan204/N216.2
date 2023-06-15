@@ -4,8 +4,11 @@
 class cVeThuong:public cVe
 {
 private:
-	int ngayo;
+	int ngayo = 0;
 public:
+	cVeThuong(int ngayo = 0 ){
+		this->ngayo = ngayo;
+	}
 	void Nhap();
 	void Xuat();
 

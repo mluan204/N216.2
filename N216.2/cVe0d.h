@@ -4,6 +4,7 @@
 class cVe0d:public cVe
 {
 public:
+	cVe0d(){}
 	void Nhap();
 	void Xuat();
 

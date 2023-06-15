@@ -6,7 +6,7 @@ void cQuanLyResort::Nhap()
 	cout << "Nhap vao tong so ve: ";
 	cin >> tongve;
 	int loai;
-	
+	cVe* p = nullptr;
 	cout << "-------------------MENU--------------------" << endl;
 	cout << "|- Nhap thong tin ve vip       (1)        |" << endl;
 	cout << "|- Nhap thong tin ve thuong    (2)        |" << endl;
@@ -19,7 +19,7 @@ void cQuanLyResort::Nhap()
 			cout << "=> Nhap lua chon: ";
 			cin >> loai;
 		} while (loai != 1 && loai != 2 && loai != 3);
-		cVe* p;
+	
 		if (loai == 1) {
 			p = new cVeVip;
 		}
@@ -48,7 +48,7 @@ void cQuanLyResort::Xuat()
 	}
 }
 
-int cQuanLyResort::TongTien()
+int cQuanLyResort::TongTienDichVu()
 {
 	int tongtiendv = 0;
 	for (int i = 0; i < ds.size(); i++)
