@@ -11,7 +11,7 @@ int main()
 	cout << "\nII. Ve su dung nhieu dich vu giai tri nhat: " << endl;
 	a.maxdvgt()->Xuat();
 
-	cout << "\nIII. Trung binh ve thuong va ve 0 dong su dung dich vu giai tri: " << endl;
+	cout << "III. Trung binh ve thuong va ve 0 dong su dung dich vu giai tri: " << endl;
 	a.TBve();
 
 	return 0;
